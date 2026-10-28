@@ -1,4 +1,5 @@
 import { Instrument_Sans, Geist_Mono } from "next/font/google";
+import SiteFooter from "@/components/site-footer";
 import SiteHeader from "@/components/site-header";
 import { profile } from "@/data/profile";
 import "./globals.css";
@@ -106,6 +107,7 @@ export default function RootLayout({ children }) {
         </a>
         <SiteHeader />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );

@@ -1,5 +1,7 @@
 import About from "@/components/about";
+import Contact from "@/components/contact";
 import Hero from "@/components/hero";
+import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import TechStack from "@/components/tech-stack";
 
@@ -9,7 +11,9 @@ export default function Home() {
       <Hero />
       <About />
       <TechStack />
+      <Projects />
       <Skills />
+      <Contact />
     </main>
   );
 }

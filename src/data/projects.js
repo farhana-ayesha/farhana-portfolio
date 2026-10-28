@@ -8,6 +8,10 @@ export const projects = [
     slug: "devstack",
     index: "01",
     name: "DevStack",
+    preview: {
+      src: "/projects/devstack.jpg",
+      alt: "DevStack homepage with the heading Build Your Ideal Development Stack, a layered stack illustration, and technology cards below.",
+    },
     tagline: "Build your own frontend stack, one technology at a time.",
     description:
       "A small app for browsing frontend, backend, database and tooling technologies, comparing them, and collecting the ones you like into a personal stack.",
@@ -26,6 +30,10 @@ export const projects = [
     slug: "fitlog",
     index: "02",
     name: "FitLog",
+    preview: {
+      src: "/projects/fitlog.jpg",
+      alt: "FitLog homepage with the heading Train with intent. Log every set., plan and saved counters, and a grid of workout cards.",
+    },
     tagline: "A workout library that keeps today's plan and saved lifts.",
     description:
       "A dark workout companion: browse twelve lifts, open a detail page for each one, build a plan for today, and keep saved workouts for later.",
@@ -44,6 +52,10 @@ export const projects = [
     slug: "bazardor",
     index: "03",
     name: "Bazardor",
+    preview: {
+      src: "/projects/bazardor.jpg",
+      alt: "Bazardor homepage in Bengali with a scrolling price ticker, the daily bazaar price heading, and cards for products whose prices rose today.",
+    },
     tagline: "Daily essential prices for the Bangladeshi market, in one place.",
     description:
       "A Bengali price-tracking app for everyday essentials such as rice, lentils, oil, vegetables, fish, meat, eggs and spices, with market-wise prices and daily changes.",
