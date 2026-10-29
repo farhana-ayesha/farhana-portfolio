@@ -8,8 +8,7 @@ export const profile = {
   firstName: "Farhana",
   role: "Frontend Developer",
   location: "Bangladesh",
-  siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://farhana-portfolio.example.com",
+  siteUrl:"https://farhana-portfolio-orcin.vercel.app",
   intro:
     "I build clean, responsive web interfaces with React, Next.js, TypeScript and Tailwind CSS — from small UI details to complete, deployed applications.",
   bio: [

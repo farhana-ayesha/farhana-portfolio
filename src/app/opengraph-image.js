@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
+import { profile } from "@/data/profile";
 
-export const alt = "Farhana Ayesha — Frontend Developer";
+export const alt = `${profile.name} — ${profile.role}`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -38,7 +39,7 @@ export default function OpengraphImage() {
               backgroundColor: "#E0682F",
             }}
           />
-          Frontend Developer — Bangladesh
+          {`${profile.role} — ${profile.location}`}
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
@@ -50,7 +51,7 @@ export default function OpengraphImage() {
               lineHeight: 1,
             }}
           >
-            Farhana Ayesha
+            {profile.name}
           </div>
           <div style={{ fontSize: 30, color: "#6E6A61" }}>
             React · Next.js · TypeScript · Tailwind CSS
@@ -69,7 +70,7 @@ export default function OpengraphImage() {
           }}
         >
           <div>Portfolio</div>
-          <div>Open to frontend roles & freelance work</div>
+          <div>{profile.availability}</div>
         </div>
       </div>
     ),
