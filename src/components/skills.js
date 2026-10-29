@@ -35,7 +35,7 @@ export default function Skills() {
                 <p className="mt-2 text-sm leading-6 text-muted">
                   {skill.description}
                 </p>
-                <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.14em] text-muted">
+                <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.14em] text-muted">
                   {skill.evidence}
                 </p>
               </li>

@@ -21,7 +21,7 @@ export default function ProjectCard({ project, reversed = false }) {
             className="object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.01]"
           />
         </div>
-        <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-[0.14em] text-muted">
+        <figcaption className="mt-3 font-mono text-[11px] uppercase tracking-[0.14em] text-muted">
           {project.name} — live site
         </figcaption>
       </figure>
@@ -60,7 +60,7 @@ export default function ProjectCard({ project, reversed = false }) {
           ))}
         </ul>
 
-        <p className="mt-5 font-mono text-[10px] uppercase leading-5 tracking-[0.14em] text-muted">
+        <p className="mt-5 font-mono text-[11px] uppercase leading-5 tracking-[0.14em] text-muted">
           {project.stack.join(" · ")}
         </p>
 
