@@ -34,8 +34,5 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 ## 📬 Contact
 
 - GitHub: [farhana-ayesha](https://github.com/farhana-ayesha)
-- LinkedIn: [www.linkedin.com/in/
-farhana-ayesha
-Vanity URL name
-]
-- Email: [your-email]
+- 
+- LinkedIn: www.linkedin.com/in/farhana-ayesha
